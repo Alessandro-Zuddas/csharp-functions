@@ -38,6 +38,12 @@ int[] ElevaArrayAlQuadrato(int[] array)
 
 int sommaElementiArray(int[] array)
 {
-    //preso un array di numeri interi, restituisca la somma totale di tutti gli elementi dell’array.
-    return 0;
+    int somma = 0;
+
+    for (int i = 0; i < array.Length; i++)
+    {
+        somma = somma + array[i];
+    }
+
+    return somma;
 }
