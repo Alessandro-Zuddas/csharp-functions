@@ -8,7 +8,8 @@ Console.WriteLine("-Stampare l’array di numeri fornito a video.");
 StampaArray(numbers);
 
 Console.WriteLine("-Stampare l’array di numeri fornito a video, dove ogni numero è stato prima elevato al quadrato."); //(Verificare che l’array originale non sia stato modificato quindi ristampare nuovamente l’array originale e verificare che sia rimasto [2, 6, 7, 5, 3, 9])
-var arrayElevato = ElevaArrayAlQuadrato(numbers); 
+var arrayElevato = ElevaArrayAlQuadrato(numbers);
+StampaArray(numbers);
 StampaArray(arrayElevato);
 Console.WriteLine();
 
